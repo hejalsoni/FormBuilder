@@ -166,6 +166,14 @@ databaseModule.config(
                     }
                 },
                 authenticate: false
+            }).state('help', {
+                url: "/help",
+                views: {
+                    "app": {
+                        templateUrl: "partials/help.html"
+                    }
+                },
+                authenticate: false
             });
     });
 
