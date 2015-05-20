@@ -1,5 +1,14 @@
 /*site wise**************************************************************************************/
 /*uh branding colors*/
+.in-cell, .in-cell>span {
+    color: #C8102E!important;
+    background-color: transparent!important;
+    border:none!important;
+}
+.in-cell:active, .in-cell:focus, .in-cell:hover {
+    color: white;
+    background-color: transparent !important;
+}
 .nav-tabs {
     border-bottom: none;
 }
@@ -26,8 +35,8 @@
 .nav-tabs > li, .nav-pills > li {
     float: none;
     display: inline-block;
-    *display: inline; /* ie7 fix */
-    zoom: 1; /* hasLayout ie7 trigger */
+    *display: inline;
+    zoom: 1;
 }
 
 .nav-tabs, .nav-pills {
@@ -52,12 +61,16 @@
     outline: none;
 }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-toggle:active, .navbar-toggle:hover, .navbar-toggle:focus, .btn-default:hover, .btn-default:active, .btn-default:focus {
+.btn-default:hover, .btn-default:active, .btn-default:focus {
+    color: white;
+    background-color: #00866c;
+    outline: none;
+}
+.btn-sub-nav:hover, .btn-sub-nav:active, .btn-sub-nav:focus {
     color: white;
     background-color: #00866c !important;
     outline: none;
 }
-
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-toggle:active, .navbar-toggle:hover, .navbar-toggle:focus {
     color: white;
     background-color: transparent;
@@ -88,15 +101,20 @@
 .btn-primary, .form-control, .btn-danger, .btn-default {
     border-radius: 12px;
 }
-
-.list-group-item:last-child {
-    border-bottom-right-radius: 18px;
-    border-bottom-left-radius: 18px;
+.list-group-item {
+    border-top: 1px solid dark;
+    border-bottom: none;
+    border-right:none;
+    border-left: none;
 }
 
+/*.list-group-item:last-child {
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+}*/
+
 .list-group-item:first-child {
-    border-top-right-radius: 18px;
-    border-top-left-radius: 18px;
+    border-top:none;
 }
 
 .navbar-toggle {

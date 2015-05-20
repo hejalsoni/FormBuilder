@@ -150,10 +150,10 @@ formBuilderController.controller('responseCtrl', ['$scope', 'Auth', '$state', 'f
         buttons.displayName = "Actions";
         buttons.enableColumnResizing = true;
         buttons.field = "0";
-        buttons.width = 100;
+        buttons.width = 80;
         buttons.enableFiltering = false;
         buttons.enableSorting = false;
-        buttons.cellTemplate = '<button type="button" class="btn btn-default" ng-click="grid.appScope.Delete(row)"><span class="glyphicon glyphicon-trash"></span></button>';
+        buttons.cellTemplate = '<button type="button" class="btn btn-default in-cell" ng-click="grid.appScope.Delete(row)"><span class="glyphicon glyphicon-trash"></span></button>';
         $scope.columns.push(buttons);
 
         $scope.questions.forEach(function (q) {
