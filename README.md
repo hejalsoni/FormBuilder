@@ -1,4 +1,4 @@
-FormBuilder + Habitat for Humanity Repo
+FormBuilder + Healthy Homes Repo
 ===========
 
 FormBuilder is a dynamic form building web application that works with dynamic forms and provides sharing functionality. It communicates to a Java Backend located in FormBuilderBackend repo.
