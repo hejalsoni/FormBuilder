@@ -10,6 +10,12 @@
     border-bottom: 1px solid #ddd !important;
 }
 
+.header-color {
+    background-color: #f2dede; /* red */
+    background-color: #fff79d; /* yellow */
+    background-color: #adffad; /* green */
+}
+
 .sub-navbar > div {
     margin-top: 10px;
 }

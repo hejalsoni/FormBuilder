@@ -10,6 +10,20 @@
             Expand by Default
         </label>
     </div>
+    <div class="header-color">
+        <label>
+            <input type="radio" ng-model="color.name" value="red">
+            Red
+        </label> <br/>
+        <label>
+            <input type="radio" ng-model="color.name" value="yellow">
+            Yellow
+        </label> <br/>
+        <label>
+            <input type="radio" ng-model="color.name" value="green">
+            Green
+        </label> <br/>
+    </div>
     <hr/>
     <div class='form-group'>
         <input type='submit' ng-click="popover.save($event)" class='btn btn-primary' value='Close'/>
