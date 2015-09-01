@@ -10,10 +10,17 @@
     border-bottom: 1px solid #ddd !important;
 }
 
-.header-color {
-    background-color: #f2dede; /* red */
-    background-color: #fff79d; /* yellow */
-    background-color: #adffad; /* green */
+/* these are the colors for the background of the section headers */
+.red {
+    background-color: #f2dede;
+}
+
+.yellow {
+    background-color: #fff79d;
+}
+
+.green {
+    background-color: #adffad;
 }
 
 .sub-navbar > div {

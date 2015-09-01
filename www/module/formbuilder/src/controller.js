@@ -159,6 +159,7 @@
             if (!pageArray) {
               pageArray = [];
             }
+            pageArray.sectionObj = question;
             pageArray.heading = question.label;
             pageArray.show = question.required;
             return $scope.questionPageArray[page_number] = pageArray;
